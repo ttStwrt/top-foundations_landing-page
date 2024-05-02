@@ -131,7 +131,8 @@ ul {
 }
 
 .quote {
-  max-width: 500px;
+  min-width: 500px;
+  max-width: 90%;
   font: #1f2937;
   font-weight: 100;
   font-style: italic;
