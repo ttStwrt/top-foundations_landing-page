@@ -67,6 +67,28 @@ ul {
   padding: 24px;
 }
 
+.sec-2 {
+  text-align: center;
+  margin: 24px auto;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  margin: 36px auto;
+}
+
+.card {
+  font-size: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 100px;
+  gap: 2px;
+}
+
 .card_hold {
   border-style: solid;
   border-color: #3882f6;
@@ -75,12 +97,6 @@ ul {
   border-width: 3px;
   width: 100px;
   height: 100px;
-}
-
-.card {
-  font-size; 8px;
-  display: flex;
-  flex-direction: column;
 }
 
 .footer {
