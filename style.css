@@ -19,7 +19,7 @@ button {
   color: white;
   padding: 6px 24px;
   max-width: 100px;
-  max-height: 30px;
+  max-height: 28px;
   flex: 1;
 }
 
@@ -53,6 +53,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex: 2 1 70%;
 }
 
 .add,
@@ -69,7 +70,6 @@ ul {
 
 .content,
 .img_hold {
-  flex: 1 0 50%;
   min-height: 200px;
 }
 
@@ -83,6 +83,10 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex: 0;
+  min-width: 300px;
+  height: 300px;
+  margin-left: 48px;
 }
 
 .sec-2,
