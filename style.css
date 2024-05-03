@@ -50,6 +50,7 @@ ul {
   padding: 72px;
   display: flex;
   justify-content: space-between;
+  gap: 72px;
 }
 
 .content {
