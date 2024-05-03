@@ -1,3 +1,8 @@
+/*Observations based on other coders' projects:
+1. Utilize section instead of div element to improve readability (can eliminate "sec" class)
+2. Think about how to utilize standardized tags in the hierarchy and distinguish by utilizing hierarchical code in css (e.g., section > info > content)
+3. Less is more. Consider the inherited behaviors/qualities of a given html element and only build on top of that, rather than trying to duplicate or override what already functions automatically) */
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
