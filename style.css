@@ -5,6 +5,10 @@ body {
   margin: 0px;
 }
 
+.sec {
+  min-width: 100vw;
+}
+
 .header,
 .footer,
 .hero {
@@ -98,6 +102,7 @@ ul {
 .cards {
   display: flex;
   flex-direction: row;
+  flex-wrap: flex;
   justify-content: center;
   gap: 30px;
   min-width: 600px;
@@ -184,5 +189,4 @@ ul {
   color: white;
   padding: 20px;
   text-align: center;
-  margin-top: auto;
 }
