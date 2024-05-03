@@ -8,6 +8,7 @@ body {
 .sec {
   min-width: 100vw;
   box-sizing: border-box;
+  padding: 48px auto;
 }
 
 .header,
@@ -95,7 +96,6 @@ ul {
 
 .sec-2,
 .sec-3 {
-  padding: 48px auto;
   margin: 48px 0;
   text-align: center;
 }
